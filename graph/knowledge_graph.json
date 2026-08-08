@@ -1,0 +1,33 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {"id": "Artificial Intelligence"},
+    {"id": "Machine Learning"},
+    {"id": "Deep Learning"},
+    {"id": "Neural Networks"},
+    {"id": "Human Brain"},
+    {"id": "Large Language Models"},
+    {"id": "Retrieval-Augmented Generation (RAG)"},
+    {"id": "GraphRAG"},
+    {"id": "Ollama"},
+    {"id": "nomic-embed-text"},
+    {"id": "Supervised Learning"},
+    {"id": "Unsupervised Learning"}
+  ],
+  "edges": [
+    {"source": "Machine Learning", "target": "Artificial Intelligence", "relation": "is_a_subset_of"},
+    {"source": "Deep Learning", "target": "Machine Learning", "relation": "is_a_subset_of"},
+    {"source": "Supervised Learning", "target": "Machine Learning", "relation": "is_a_type_of"},
+    {"source": "Unsupervised Learning", "target": "Machine Learning", "relation": "is_a_type_of"},
+    {"source": "Neural Networks", "target": "Deep Learning", "relation": "used_by"},
+    {"source": "Neural Networks", "target": "Human Brain", "relation": "inspired_by"},
+    {"source": "Large Language Models", "target": "Deep Learning", "relation": "built_using"},
+    {"source": "Retrieval-Augmented Generation (RAG)", "target": "Large Language Models", "relation": "combines_with_external_knowledge"},
+    {"source": "GraphRAG", "target": "Retrieval-Augmented Generation (RAG)", "relation": "improves_upon"},
+    {"source": "GraphRAG", "target": "Large Language Models", "relation": "uses"},
+    {"source": "Ollama", "target": "Large Language Models", "relation": "runs_locally"},
+    {"source": "Ollama", "target": "nomic-embed-text", "relation": "supports"}
+  ]
+}

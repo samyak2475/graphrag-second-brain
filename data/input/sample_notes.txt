@@ -1,0 +1,13 @@
+Artificial Intelligence (AI) is a broad field of computer science that aims to create systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning is a subset of Artificial Intelligence. It enables computers to learn patterns from data without being explicitly programmed. The two main types of Machine Learning are Supervised Learning and Unsupervised Learning.
+
+Deep Learning is a specialized subset of Machine Learning. Deep Learning uses Neural Networks that contain many layers. Neural Networks are computational models inspired by the structure of the Human Brain.
+
+Large Language Models (LLMs) such as Llama 3.2 and GPT are built using Deep Learning techniques. These models are trained on massive amounts of text data and can generate human-like responses.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines Large Language Models with external knowledge sources. The goal of RAG is to improve answer accuracy and reduce hallucinations.
+
+GraphRAG is an advanced version of RAG. GraphRAG first builds a knowledge graph from documents and then performs multi-hop reasoning over the graph. This allows it to answer complex questions that require connecting multiple concepts.
+
+Ollama is a tool that allows users to run Large Language Models and embedding models completely locally on their own computer. Ollama supports models such as Llama 3.2 and nomic-embed-text. Running models locally with Ollama provides privacy and zero cost.
