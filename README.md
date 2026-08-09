@@ -79,9 +79,10 @@ Streamlit UI + Interactive Viz
 ```bash
 ollama pull llama3.2:3b
 ollama pull nomic-embed-text
+```
 
 #### 3. Setup the project
-
+```bash
 Bashgit clone https://github.com/samyak2475/graphrag-second-brain.git
 cd graphrag-second-brain
 
@@ -92,6 +93,7 @@ python -m venv venv
 source venv/bin/activate
 
 pip install networkx ollama pypdf numpy matplotlib pyvis tqdm streamlit
+```
 
 #### 4. Run the application
 
